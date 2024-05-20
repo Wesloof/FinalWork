@@ -2,9 +2,18 @@
 
 int main() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	int al, b, c, d, res; // переменные
 	scanf_s("%d%d%d%d", &al, &b, &c, &d);
 	res = int((al > 0)) + int((b > 0)) + int((c > 0)) + int((d > 0));
+=======
+	int a, b, c, d, res;
+	scanf_s("%d%d%d%d", &a, &b, &c, &d);
+	res = int((a > 0)) + int((b > 0)) + int((c > 0)) + int((d > 0));
+	if (a > 0) {
+		  printf("+");//ѕроверка на неотрицательность
+	}
+>>>>>>> aabdb86a77d48f55c0af1c49b53c96610db53e3a
 	if (res == 4)
 	{
 		printf("%d %d %d\n", al, b, c);
