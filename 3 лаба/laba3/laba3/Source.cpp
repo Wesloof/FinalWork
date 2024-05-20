@@ -2,7 +2,7 @@
 
 int main() {
 	int all, b, c, d, res;
-	scanf_s("%d%d%d%d", &a, &b, &c, &d);
+	scanf_s("%d%d%d%d", &all, &b, &c, &d);//Сканируем переменные
 	res = int((all > 0)) + int((b > 0)) + int((c > 0)) + int((d > 0));
 	if (res == 4)
 	{
