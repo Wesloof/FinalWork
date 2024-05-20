@@ -4,6 +4,9 @@ int main() {
 	int a, b, c, d, res;
 	scanf_s("%d%d%d%d", &a, &b, &c, &d);
 	res = int((a > 0)) + int((b > 0)) + int((c > 0)) + int((d > 0));
+	if (a > 0) {
+		  printf("+");//Проверка на неотрицательность
+	}
 	if (res == 4)
 	{
 		printf("%d %d %d\n", a, b, c);
